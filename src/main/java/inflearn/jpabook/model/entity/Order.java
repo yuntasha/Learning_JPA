@@ -31,6 +31,8 @@ public class Order {
     @Enumerated(EnumType.STRING)
     private OrderStatus status; // 주문 상태
 
+
+    // 연관관계 메서드 //
     public void setMember(Member member){
         if (this.member != null){
             this.member.getOrders().remove(this);
