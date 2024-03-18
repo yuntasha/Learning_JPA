@@ -1,8 +1,12 @@
 package inflearn.jpabook.model.entity;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 @Entity
+@Setter
+@Getter
 public class Delivery {
     @Id @GeneratedValue
     @Column(name = "DELIVERY_ID")
