@@ -1,5 +1,6 @@
 package inflearn.jpabook.model.entity;
 
+import inflearn.jpabook.model.entity.item.Item;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
